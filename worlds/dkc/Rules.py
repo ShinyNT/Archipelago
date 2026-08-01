@@ -914,9 +914,9 @@ class DKCStrictRules(DKCRules):
                 HasPlatforms & HasTires & HasKannons,
 
             LocationName.manic_mincers_clear:
-                HasTires,
+                HasTires | CanCarry | HasRambi,
             EventName.manic_mincers_clear:
-                HasTires,
+                HasTires | CanCarry | HasRambi,
             LocationName.manic_mincers_bonus_1:
                 CanCarry | HasRambi,
             LocationName.manic_mincers_bonus_2:
@@ -1769,9 +1769,9 @@ class DKCLooseRules(DKCRules):
                 HasPlatforms & HasTires & HasKannons,
 
             LocationName.manic_mincers_clear:
-                HasTires,
+                HasTires | CanCarry | HasRambi,
             EventName.manic_mincers_clear:
-                HasTires,
+                HasTires | CanCarry | HasRambi,
             LocationName.manic_mincers_bonus_1:
                 CanCarry | HasRambi,
             LocationName.manic_mincers_bonus_2:
