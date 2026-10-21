@@ -552,7 +552,7 @@ class DKC3StrictRules(DKC3Rules):
             Locations.springing_spiders_kong:
                 HasSquawks | CanTeamAttack,
             Locations.springing_spiders_coin_1:
-                CanSpin,
+                True_(),
             Locations.springing_spiders_balloon_1:
                 CanTeamAttack,
             Locations.springing_spiders_bananas_1:
@@ -1730,7 +1730,7 @@ class DKC3LooseRules(DKC3Rules):
             Locations.springing_spiders_kong:
                 HasSquawks | CanTeamAttack,
             Locations.springing_spiders_coin_1:
-                CanSpin,
+                True_(),
             Locations.springing_spiders_balloon_1:
                 CanTeamAttack,
             Locations.springing_spiders_bananas_1:
